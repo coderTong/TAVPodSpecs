@@ -31,8 +31,8 @@ Pod::Spec.new do |s|
   s.frameworks   = "UIKit", "AVFoundation", "CoreTelephony", "CoreMedia",  "AVFoundation", "AudioToolbox", "Security", "VideoToolbox", "SystemConfiguration",  "CoreVideo", "CoreGraphics", "CFNetwork"
   
 
-  s.default_subspec = 'tav_fdkaac'
-  s.subspec 'tav_fdkaac' do |ss|
+  s.default_subspec = 'tav_ffmpeg'
+  s.subspec 'tav_ffmpeg' do |ss|
     ss.source_files        = 'include/**/*.h'
     ss.public_header_files = 'include/**/*.h'
     ss.header_mappings_dir = 'include'
